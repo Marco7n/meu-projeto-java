@@ -32,6 +32,9 @@ public class ReservaMes {
         }
         return result;
     }
+    public List<Reserva> getReservas() {
+    return reservas;
+}
 
     public boolean salaDisponivel(Sala sala, Date dataHora) {
         for (Reserva r : reservas) {
